@@ -13,11 +13,9 @@ Once acheived, rename all occurences of the tag with preferred name `immuDB`
 
 ```json
 {
-    // ....
     "tags": [
           "ImmuDB"
     ]
-    // ...
 }
 ```
 
@@ -25,7 +23,7 @@ Doing this ensures that the generated class name for the API in the schema is as
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*ImmuDBApi* | [**immu_db_change_password**](docs/ImmuDBApi.md#immu_db_change_password) | **POST** /user/password/change | 
+*ImmuDBApi* | **immu_db_change_password** | **POST** /user/password/change | 
 
 Run the `gen_sdk.sh` script from the root of repository first noting to make the script executable with `chmod 755 /path/to/script`. The contents of the script are documented below.
 
