@@ -1,0 +1,13 @@
+# SchemaSqlQueryRequest
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**sql** | Option<**String**> |  | [optional]
+**params** | Option<[**Vec<crate::models::SchemaNamedParam>**](schemaNamedParam.md)> |  | [optional]
+**reuse_snapshot** | Option<**bool**> |  | [optional]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
